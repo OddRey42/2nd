@@ -33,20 +33,20 @@ operators = [' A', ' EVERY', ' NO', ' NOT EVERY']
 
 def phrase():
     text = choice(operators) + ' ' + choice(subjects)
-    if text == 'A ANDRIOD':
-        text = 'AN ANDRIOD'
+    if text == ' A ANDRIOD':
+        text = ' AN ANDRIOD'
     return text + ' IS '
 
 def phrase():
     text = choice(operators) + ' ' + choice(subjects)
-    if text == 'A ALIEN':
-        text = 'AN ALIEN'
+    if text == ' A ALIEN':
+        text = ' AN ALIEN'
     return text + ' IS '
 
 def phrase():
     text = choice(operators) + ' ' + choice(subjects)
-    if text == 'A INVADER':
-        text = 'AN INVADER'
+    if text == ' A INVADER':
+        text = ' AN INVADER'
     return text + ' IS '
 
 print('')
